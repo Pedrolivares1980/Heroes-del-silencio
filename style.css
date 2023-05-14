@@ -128,10 +128,18 @@ body{
     height: auto;
 }
 
+.history h1{
+    color: 	#D9D9F3;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 10px;
+}
+
 .history h2{
     font-size: 2rem;
     text-align: center;
-    color: #F205B3;
+    color: #F7E7CE;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 10px;
 }
@@ -229,8 +237,9 @@ body{
 .main_content .members h2{
     text-align: center;
     font-size: 1.6em;
-    color: #F205B3;
+    color: #F7E7CE;
     text-transform: uppercase;
+    padding: 5rem;
 }
 
 .main_content .members p{
@@ -253,7 +262,7 @@ body{
 }
 
 .main_content .disco h3{
-    color: #F205B3;
+    color: #F7E7CE;
     text-align: center;
     padding: 5rem 0;
     font-size: 2rem;
@@ -272,7 +281,7 @@ body{
     text-align: center;
     font-size: 2rem;
     font-weight: 900;
-    color: #3A2AF0;
+    color: #F7E7CE;
 }
 
 .main_content .cover{
