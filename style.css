@@ -39,7 +39,7 @@ body{
     width: 90%;
     height: 150px;
     margin-left: 5%;
-    /* background-image: url(/images/tour1.jpg); */
+    background-image: url(images/tour1.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.7;
