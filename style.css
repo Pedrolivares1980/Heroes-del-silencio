@@ -411,12 +411,6 @@ body{
     color: #EAEAEA;
 }
 
-.main_footer .mail a:hover{
-    color: #593457;
-    transform: scale(1.3);
-    transition: all .5s;
-}
-
         /* SOCIAL MEDIA */
 
 .main_footer .sm{
@@ -444,18 +438,10 @@ body{
     padding-top: 5px;
 }
 
-.main_footer .sm .fb:hover,
-.main_footer .sm .tw:hover,
-.main_footer .sm .lk:hover{
-    transform: scale(1.3);
-    background-color: #1D9BF0;
-    transition: 0.5s;
-}
-
-.main_footer .sm .yt:hover{
-    transform: scale(1.3);
-    background-color: red;
-    transition: 0.5s;
+.main_footer .sm .validator{
+    border:0;
+    width:88px;
+    height:31px;
 }
 
 
@@ -618,7 +604,27 @@ body{
             justify-content: center;
             align-items: center;
         }
+
+                /* HOVER */
+
+        .main_footer .mail a:hover{
+            transform: scale(1.3);
+            color: #593457;
+            transition: all 1s;
+        }
+        
+        .main_footer .sm .fb:hover,
+        .main_footer .sm .tw:hover,
+        .main_footer .sm .lk:hover{
+            transform: scale(1.3);
+            background-color: #1D9BF0;
+            transition: all 1s;
+        }
+        
+        .main_footer .sm .yt:hover{
+            transform: scale(1.3);
+            background-color: red;
+            transition: all 1s;
+        }
+        
     }
-
-
-
